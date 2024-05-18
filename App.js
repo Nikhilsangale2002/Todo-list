@@ -55,12 +55,11 @@ function TodoList() {
                             onClick={() => handleDeleteTask(index)}
                         >
                             <span aria-hidden="true">&times;</span>
-                        </button>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
+                            </button>
+                            </li>
+                        ))}
+                    </ul>
+                 </div>
+                 );
 }
-
 export default TodoList;
